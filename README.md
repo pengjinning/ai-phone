@@ -11,7 +11,7 @@
 ### Installation
 
 | Requirement | Details |
-|---|---|
+| --- | --- |
 | Platform | macOS on Apple Silicon. Intel Macs, Linux and Windows are not currently supported. |
 | Memory | 16 GB recommended for the default 4B model; 32 GB for 9B. Setup also offers a smaller 2B model for 8 GB systems. |
 | Dependencies | Git, [Homebrew](https://brew.sh) and [uv](https://docs.astral.sh/uv/). The installer handles Python packages and the native SIP library. |
@@ -93,7 +93,7 @@ for call IDs, transcript retrieval, timeouts and exit codes.
 ### Models
 
 | Component | Options |
-|---|---|
+| --- | --- |
 | Speech recognition | Parakeet, running locally through MLX. |
 | Language model | A local MLX model, your Claude Code or Codex subscription, or an OpenAI-compatible endpoint. |
 | Voice | Phonon with its bundled English voice, or Kokoro with American and British voices and adjustable speed. |
